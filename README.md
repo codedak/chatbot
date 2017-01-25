@@ -17,3 +17,20 @@ The bot performs extremely well on casual conversations that are prevalent in mo
 - Tkinter
 - PyCharm
 - SublimeText
+
+##Instructions to run
+There are three steps involved in running the chatbot:
+
+###To train the bot 
+- a. Open the file "seq2seq.ini" 
+- b. Set 'mode = train' 
+- c. Run the file execute.py using the code "python execute.py"
+
+###To test the bot after training
+- a. Open the file "seq2seq.ini" 
+- b. Set 'mode = test' 
+- c. Run the file execute.py using the code "python execute.py"
+
+###Finally to launch the chatbot in serve mode run "host.pyw" file.
+
+And, now you can enjoy the fun conversation with the chatbot !!
