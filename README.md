@@ -1,7 +1,7 @@
 # Chatbot
 Victor - A generative ChatBot based on Sequential Neural Network and Deep Learning which can be trained on any desired dataset for specific purposes. Instead of ordinary ChatBots which are based on hard-coded responses, it can understand context and respond accordingly.
 
-##Description
+## Description
 The fame of Deep Learning is at its epitome today. This here is a simple demonstration of what elementary level Deep Learning can achieve.
 Our project, Victor is a generative chatbot that works on a sequential neural network. 
 
@@ -11,26 +11,26 @@ The real "catch" about Victor is that it can be trained on any data we like, it 
 
 The bot performs extremely well on casual conversations that are prevalent in movies given the fact that we had a relatively short time to train it and thus, several parameters had to be compromised (number of neurons in each layer etc.). Talking about future improvements, we can train it on even a bigger dataset and use more layers or more number of neurons in each layer. Also, we could add the feature of training it simultaneously while using it which would further increase its accuracy with experience.
 
-##Tools and Libraries used
+## Tools and Libraries used
 
 - Tensorflow
 - Tkinter
 - PyCharm
 - SublimeText
 
-##Instructions to run
+## Instructions to run
 There are three steps involved in running the chatbot:
 
-###To train the bot 
+### To train the bot 
 - a. Open the file "seq2seq.ini" 
 - b. Set 'mode = train' 
 - c. Run the file execute.py using the code "python execute.py"
 
-###To test the bot after training
+### To test the bot after training
 - a. Open the file "seq2seq.ini" 
 - b. Set 'mode = test' 
 - c. Run the file execute.py using the code "python execute.py"
 
-###Finally to launch the chatbot in serve mode run "host.pyw" file.
+### Finally to launch the chatbot in serve mode run "host.pyw" file.
 
 And, now you can enjoy the fun conversation with the chatbot !!
